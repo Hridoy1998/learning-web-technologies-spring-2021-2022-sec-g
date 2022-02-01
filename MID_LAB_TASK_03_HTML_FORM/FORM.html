@@ -1,0 +1,92 @@
+<html>
+<head>
+	<title>Form</title>
+    <style>
+        table, td, th {
+          border: 1px solid black;
+        }
+        
+        table {
+          width: 100%;
+          height: 100%;
+          border-collapse: collapse;
+        }
+        </style>
+</head>
+<body>
+
+	<form method="" action="">
+        <table border="1" border-collapse="collapse">
+            <tr>
+                <td>
+                    <H1 align="center"><ul>PERSON PROFILE</ul></H1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+			<table border="1" border-collapse="collapse">
+				<tr>
+					<td>Name: </td>
+					<td><input type="text" name="name" value=""  </td>
+				</tr>
+				<tr>
+					<td>Email: </td>
+					<td>
+						<input type="email" name="myemail" value=""> 
+					</td>
+				</tr>
+				<tr>
+					<td>gender: </td>
+					<td>
+						<input type="radio" name="gender" value=""> Male
+						<input type="radio" name="gender" value=""> Female
+						<input type="radio" name="gender" value=""> Other
+					</td>
+				</tr>
+				<tr>
+					<td>Date of Birth: </td>
+					<td><input type="date" name="dob" value=""></td>
+				</tr>
+				<tr>
+					<td>Blood Group: </td>
+					<td>
+						<select name="group">
+							<option value="a+">A+</option>
+                            <option value="a-">A-</option>
+                            <option value="b+">B+</option>
+                            <option value="b-">B-</option>
+                            <option value="ab+">AB+</option>
+                            <option value="ab-">AB-</option>
+                            <option value="o-">O-</option>
+                            <option value="o+">O+</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Degree: </td>
+					<td>
+						<input type="checkbox" name="" value=""> SSC 
+						<input type="checkbox" name="" value=""> HSC 
+						<input type="checkbox" name="" value=""> BSc.
+                        <input type="checkbox" name="" value=""> MSc. 
+					</td>
+				</tr>
+				<tr>
+					<td>Photo</td>
+					<td>
+						<input type="file" name="mypic">
+					</td>
+				</tr>
+			</table>
+            <tr>
+            </tr>
+            <tr>
+                <td align="right">
+                    <input type="submit" name="submit" value="Submit"> 
+                    <input type="reset" name="reset" value="Reset" > 
+                </td>
+            </tr>
+        </table>
+	</form>
+</body>
+</html>
